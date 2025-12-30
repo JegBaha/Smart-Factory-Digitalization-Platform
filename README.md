@@ -1,0 +1,1 @@
+MES–ERP KPI’ları ve üretim hattı parametrelerini birleştirerek defect riskini tahmin eden, Logistic Regression ve Random Forest tabanlı, yorumlanabilir ve görselleştirilmiş bir Industry 4.0 ML pipeline’ı geliştirdim.
