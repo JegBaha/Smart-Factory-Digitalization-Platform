@@ -31,26 +31,6 @@ ai-process-optimization/
 └── requirements.txt
 ```
 
-## How to run
-1) Install dependencies
-```
-python -m venv .venv
-.venv\\Scripts\\activate  # or source .venv/bin/activate
-pip install -r requirements.txt
-```
-2) Train baseline + advanced models and view metrics
-```
-python src/train.py
-```
-   - Scripts auto-resolve `data/production_data.csv` relative to the repo; run from repo root for simplicity.
-3) Generate feature importance + temperature curve plots (saved to `results/`)
-```
-python src/evaluate.py
-```
-4) Explore interactively
-```
-jupyter notebook notebooks/analysis.ipynb
-```
 
 ## Process highlights
 - Data prep: IQR-based outlier removal, shift one-hot encoding, train/test split.
